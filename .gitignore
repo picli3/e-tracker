@@ -1,5 +1,5 @@
-# KiCad
-*.kicad_pcb-bak
+# Backups
+e-track-backups/
 *.kicad_sch-bak
 *-backup/
 *.kicad_prl.bak
@@ -26,6 +26,10 @@
 *.svg
 *.png
 
+# Exception for visual documentation
+!screenshots/*.png
+!screenshots/*.svg
+
 # OS files
 .DS_Store
 Thumbs.db
@@ -33,4 +37,4 @@ Thumbs.db
 # Editor files
 *.swp
 *.swo
-*~
+*~~e-track.kicad_pro.lck
