@@ -29,6 +29,7 @@ e-track-backups/
 # Exception for visual documentation
 !screenshots/*.png
 !screenshots/*.svg
+!docs/*.png
 
 # OS files
 .DS_Store
